@@ -1,0 +1,94 @@
+#MyJourney {
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+}
+
+#MyJourney h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #f39c12;
+  margin-bottom: 40px;
+}
+
+.timeline-columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.column {
+  width: 45%;
+}
+
+.timeline-item {
+  position: relative;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+  
+}
+
+.timeline-item:hover {
+  transform: scale(1);
+  background-color: #2a2a2a;
+
+}
+
+.timeline-item h4 {
+  margin: 0 0 10px 0;
+  color: #a77bff;
+}
+
+.timeline-item p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+/* Orange center line */
+.center-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  background-color: #f39c12;
+  z-index: 0;
+}
+
+/* Dot on the line */
+.dot {
+  width: 18px;
+  height: 15px;
+  background-color: #f39c12;
+  border-radius: 50%;
+  position: absolute;
+  top: 28px;
+  left: 506px;
+  z-index: 1;
+  animation: glowBlink 1.5s infinite ease-in-out;
+  box-shadow: 0 0 8px #f39c12;
+}
+
+/* Adjust dot for right column */
+.column.right .timeline-item{
+  left: auto;
+  right: -24px;
+}
+
+@keyframes glowBlink {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 6px #f39c12, 0 0 12px #f39c12;
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 12px #f1c40f, 0 0 20px #f1c40f;
+  }
+}

@@ -1,0 +1,79 @@
+.aboutUs{
+    background-color: black;
+    height: 560px;
+    width: 100%;
+    margin-top: -23px;
+}
+.Info h2{
+    margin: 0;
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center;
+    color: rgb(248, 4, 236);
+}
+.Info p {
+    padding: 10px;
+    text-align: justify;         
+    font-size: 1.4rem;            
+    font-weight: 400;            
+    color: #f5f5f5;               
+    line-height: 1.8;             
+    /* margin: 20px auto;            */
+    font-family: 'Poppins', 'Segoe UI', sans-serif;  
+    letter-spacing: 0.2px;
+    padding-bottom: 0px;        
+}
+.PI .inf{
+  
+    margin: 0;
+    font-size: 30px;
+    /* padding-top: 4%; */
+    text-align: center;
+    color: rgb(248, 4, 236);
+}
+.Info p span {
+    color: hsl(60, 95%, 46%);               
+    font-weight: 600;}            
+.Info p .p{
+    color: white;
+    padding-left: 54px;
+}
+
+.Info .PI{
+    width: 100%;
+    display: flex;
+    color: #f5f5f5;
+    padding-top: 42px;
+}
+.inf{
+    /* padding-left: 40.6%; */
+    font-size: 30px;
+    color:rgb(248, 4, 236);
+    margin-top: 45px;
+   
+}
+.My-Info{
+    line-height: 50px;
+    padding-left: 30%;
+    box-sizing: border-box;
+}
+.My-Info-Sec2{
+    line-height: 50px;
+    margin-left: 10%;
+}
+.a{
+    font-size: 22px;
+    font-weight: 400;
+    color:hsl(47, 92%, 48%);
+}
+h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: aqua;
+}
+a{
+    font-weight: 500;
+    text-decoration: none;
+    color: aqua;
+}
+

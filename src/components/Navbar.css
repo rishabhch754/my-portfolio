@@ -1,0 +1,46 @@
+#navbar {
+  background-color:black;
+  color: whitesmoke;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between; /* logo left aur nav right */
+  align-items: center;  /* content in center from top bottom left right. */
+  padding: 0 30px;
+  padding-right: 20px;
+  padding: 1.8%;
+}
+
+.logo {
+  padding-left: 1.8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navright ul{
+  list-style: none;
+  display: flex;
+  gap: 20px; /* nav items ke beech spacing */
+  margin: 0;
+  padding: 4rem;
+}
+.navright ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navright ul li a:hover {
+  color: #f39c12; /* hover pe golden color */
+}
+
+
+.navright ul li a:visited {
+  color: whitesmoke; /* visited links bhi white rahenge */
+}
+
+.navright ul li a:hover {
+  color: #f39c12;   /* hover pe golden color */
+}

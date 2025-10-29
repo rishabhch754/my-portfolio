@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.skills {
+    text-align: center;
+    height: auto;
+    background-color: black;
+}
+
+.skills h2 {
+    /* font-size: larger; */
+   color: rgb(248, 53, 238);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.AllSkill {
+    display: flex;
+    /* Flexbox layout */
+    gap: 40px;
+    /* Space between columns */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.AllSkill .Frontend {
+    margin: 4%;
+    /* margin-left: 2%;
+    margin-top: 6%; */
+    color: white;
+    box-sizing: border-box;
+    width: 35%;
+    height: 460px;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+
+}
+
+.Frontend h3 {
+    color: rgb(214, 241, 39);
+    font-size: 22px;
+    padding-top: 13px;
+    font-weight: 500;
+}
+
+.Fskill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10%;
+}
+
+.Fskill>div {
+    flex: 0 1 calc(30% - 10px);
+    /* Two per row */
+    background-color: #292929;
+    border: 1px solid #666;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.Fskill>div:hover {
+    transform: scale(1.05);
+    border-color: rgb(248, 53, 238);
+    box-shadow: 0 0 10px rgb(248, 53, 238, 0.5);
+}
+
+.icon {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+.Html .icon {
+    color: orange;
+
+}
+
+.Css .icon {
+    color: blue;
+
+}
+
+.JavaScript .icon {
+    color: yellow;
+
+}
+
+.ReactJs .icon {
+
+    color: blue;
+
+}
+
+.Tailwind .icon {
+    color: #38bdf8;
+}
+
+.Bootstrap .icon {
+    color: #7952b3;
+}
+
+/* Database */
+.AllSkill .ToolsandTechnology {
+    margin-top: 4%;
+    margin-left: 14%;
+    /* margin-left: 2%;
+    margin-top: 6%; */
+    color: white;
+    box-sizing: border-box;
+    width: 35%;
+    height: 460px;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+.ToolsandTechnology h3 {
+    color: rgb(214, 241, 39);
+    font-size: 22px;
+    padding-top: 13px;
+    font-weight: 500;
+}
+.Dskill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10%;
+}
+.Dskill>div {
+    flex: 0 1 calc(30% - 10px);
+    /* Two per row */
+    background-color: #292929;
+    border: 1px solid #666;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.Dskill>div:hover {
+    transform: scale(1.05);
+    border-color: rgb(248, 53, 238);
+    box-shadow: 0 0 10px rgb(248, 53, 238, 0.5);
+}
+.icon {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.Sql.icon {
+    color: orange;
+}
+
+.Git .icon {
+    color: blue;
+
+}
+
+.GitHub .icon {
+    color: yellow;
+
+}
+
+.VsCode .icon {
+
+    color: blue;
+
+}
+
+.Postman .icon {
+    color: #38bdf8;
+}
+
+.MySqlWorkBench .icon {
+    color: #7952b3;
+}
+
