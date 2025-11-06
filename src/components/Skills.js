@@ -1,6 +1,6 @@
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase,  FaGitAlt, FaGithub  } from 'react-icons/fa';
-import { SiTailwindcss, SiBootstrap, SiVscode, SiPostman,  SiMysql } from 'react-icons/si';
+import { SiTailwindcss, SiBootstrap, SiPostman,  SiMysql } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
 import "./Skills.css";
