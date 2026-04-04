@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { ThemeProvider } from "./ThemeContext";
+import "./App.css";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -10,20 +12,32 @@ import MyJourney from "./components/MyJourney";
 import Certification from "./components/Certification";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
+  // ✅ Scroll to top on refresh
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div>
-     <Navbar />
-     <Home />
-     <About />
-    <Skills />
-    <Projects />
-    <MyJourney />
-    <Certification />
-    <Contact />
-    <Footer /> 
-  </div>
+    <ThemeProvider>
+      <div className="app">
+        <Navbar />
+        <ThemeToggle />
+        <main>
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <MyJourney />
+          <Certification />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
+
 export default App;

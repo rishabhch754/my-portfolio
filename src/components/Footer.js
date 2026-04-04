@@ -1,7 +1,21 @@
 import React from "react";
-function Footer(){
-    return(
-        <h3>All writes reserved</h3>
+import { useTheme } from "../ThemeContext";
+import "./Footer.css";
+
+function Footer() {
+    const { isDarkMode } = useTheme();
+    const currentYear = new Date().getFullYear();
+
+    return (
+        <footer className="footer-simple">
+            <div className="footer-simple-content">
+                <p>
+                    <i className="far fa-copyright"></i> 
+                    {currentYear} Rishabh Kumar. All rights reserved.
+                </p>
+            </div>
+        </footer>
     );
 }
+
 export default Footer;
