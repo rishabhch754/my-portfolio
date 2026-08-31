@@ -22,7 +22,7 @@ function About() {
                         </p>
                         
                         <p className="description">
-                            I have completed my <span className="highlight">BCA from GLA University</span> and 
+                            I am Pursuing my <span className="highlight">MCA from GLA University</span> and 
                             have been working on various projects that solve real-world problems. My journey in 
                             tech started with a curiosity about how websites work, and now I'm proficient in 
                             creating applications using modern technologies.
@@ -30,15 +30,15 @@ function About() {
 
                         <div className="stats-container">
                             <div className="stat-item">
-                                <span className="stat-number">8</span>
-                                <span className="stat-label">Months Experience</span>
+                                <span className="stat-number">9</span>
+                                <span className="stat-label">Months Training Experience</span>
                             </div>
                             <div className="stat-item">
                                 <span className="stat-number">5+</span>
                                 <span className="stat-label">Projects Completed</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">0</span>
+                                <span className="stat-number">6</span>
                                 <span className="stat-label">Happy Clients</span>
                             </div>
                         </div>

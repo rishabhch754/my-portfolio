@@ -10,6 +10,17 @@ function Projects() {
     const projects = [
         {
             id: 1,
+            title: "Tour & Travels Taxi Booking Website",
+            category: "mini",
+            description: "Full-featured Taxi Booking Website with fully responsive Ness",
+            tech: ["React", "Html", "Bootstrap", "EmailJs"],
+            image: "https://travel-website-demo-kappa.vercel.app/assets/BackGroundImage-DESFnRBd.jpg",
+            liveDemo: "https://travel-website-demo-kappa.vercel.app/",
+            github: "https://github.com/rishabhch754/travel-website-demo",
+            featured: true
+        },
+        {
+            id: 2,
             title: "E-Commerce Platform",
             category: "fullstack",
             description: "Full-featured e-commerce platform with payment integration, user authentication, and admin panel.",
@@ -20,7 +31,7 @@ function Projects() {
             featured: true
         },
         {
-            id: 2,
+            id: 3,
             title: "Employee Management System",
             category: "fullstack",
             description: "Collaborative task management tool with real-time updates and team features.",
@@ -30,7 +41,7 @@ function Projects() {
             github: "https://github.com"
         },
         {
-            id: 3,
+            id: 4,
             title: "Weather Dashboard",
             category: "mini",
             description: "Real-time weather application with 5-day forecast and location search.",
@@ -125,12 +136,6 @@ function Projects() {
                                         </a>
                                     </div>
                                 </div>
-                                {/* {project.featured && (
-                                    <span className="featured-badge">
-                                        <i className="fas fa-star"></i>
-                                        Featured
-                                    </span>
-                                )} */}
                             </div>
 
                             <div className="project-info">
@@ -142,31 +147,9 @@ function Projects() {
                                     ))}
                                 </div>
                             </div>
-
-                            {/* Hover Stats */}
-                            {/* {hoveredProject === project.id && (
-                                <div className="project-stats">
-                                    <div className="stat">
-                                        <i className="fas fa-code"></i>
-                                        <span>{project.tech.length} Technologies</span>
-                                    </div>
-                                    <div className="stat">
-                                        <i className="fas fa-clock"></i>
-                                        <span>3 months development</span>
-                                    </div>
-                                </div>
-                            )} */}
                         </div>
                     ))}
                 </div>
-
-                {/* View More Button */}
-                {/* <div className="view-more">
-                    <a href="https://github.com/rishabh" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                        <i className="fab fa-github"></i>
-                        View More on GitHub
-                    </a>
-                </div> */}
             </div>
         </section>
     );

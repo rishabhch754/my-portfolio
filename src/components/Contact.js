@@ -19,11 +19,11 @@ function Contact() {
       )
       .then(
         () => {
-          alert("✅ Message sent successfully!");
+          alert("Message sent successfully!");
           form.current.reset();
         },
         (error) => {
-          alert("❌ Message failed to send. Please try again.");
+          alert("Message failed to send. Please try again.");
           console.error(error.text);
         }
       );
@@ -41,8 +41,6 @@ function Contact() {
         </div>
 
         <div className="contact-container">
-          {/* ✅ ALL INFO CARDS REMOVED - Sirf form rahega */}
-          
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div className="form-group">
               <input

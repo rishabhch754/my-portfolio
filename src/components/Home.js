@@ -84,11 +84,11 @@ function Home() {
                                 <span>Get In Touch</span>
                                 <i className="fas fa-arrow-right"></i>
                             </a>
-                            <a href="/Rishabh_cv.pdf" className="btn btn-secondary" target="_blank">
+                            <a href="/Rishabh_Kumar_Resume.pdf" className="btn btn-secondary" target="_blank">
                                 <i className="fas fa-eye"></i>
                                 <span>View CV</span>
                             </a>
-                            <a href="/Rishabh_cv.pdf" className="btn btn-outline" download>
+                            <a href="/Rishabh_Kumar_Resume.pdf" className="btn btn-outline" download>
                                 <i className="fas fa-download"></i>
                                 <span>Download CV</span>
                             </a>

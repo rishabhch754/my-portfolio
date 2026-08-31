@@ -9,20 +9,27 @@ function MyJourney() {
         education: [
             {
                 id: 1,
+                title: "Master of Computer Applications",
+                institution: "GLA University, Mathura",
+                year: "2026 - 2028",
+                description: "Specialized in full-stack development with coursework in Data Structures, Algorithms, Database Management, and Web Technologies."
+            },
+            {
+                id: 2,
                 title: "Bachelor of Computer Applications",
                 institution: "GLA University, Mathura",
                 year: "2022 - 2025",
                 description: "Specialized in full-stack development with coursework in Data Structures, Algorithms, Database Management, and Web Technologies."
             },
             {
-                id: 2,
+                id: 3,
                 title: "Intermediate (12th) - Commerce",
                 institution: "SDG Inter College, Mathura",
                 year: "2021 - 2022",
                 description: "Completed higher secondary education with focus on Mathematics, Economics, and Business Studies."
             },
             {
-                id: 3,
+                id: 4,
                 title: "High School (10th)",
                 institution: "SDG Inter College, Mathura",
                 year: "2019 - 2020",
@@ -34,7 +41,7 @@ function MyJourney() {
                 id: 1,
                 title: "Java Full Stack Trainee",
                 company: "CETPA Infotech Pvt. Ltd., Noida",
-                year: "Sep 2025 - Present",
+                year: "Sep 2025 - May 2026",
                 type: "Internship",
                 description: "Intensive training program focused on enterprise application development.",
                 responsibilities: [

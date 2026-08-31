@@ -15,7 +15,6 @@ import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
-  // ✅ Scroll to top on refresh
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -39,5 +38,4 @@ function App() {
     </ThemeProvider>
   );
 }
-
 export default App;
